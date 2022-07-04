@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav-items">
+        <h1 class="titlePage">Careers</h1>
+        <a class="nav-item" href="home.html">Home</a>
+        <a class="nav-item" href="add-job.html">Create Job</a>
+    </nav>
+    <div class="card-form">
+    <form id="form-add-job" class="form">
+        <div>
+            <label for="job">Job title</label>
+            <input class="input" placeholder="Job title" type="text" name="job" id="name">
+        </div>
+        <div>
+            <label for="description">Description</label>
+            <input class="input-description" type="text" placeholder="Description" name="description" id="description">
+        </div>
+        <div>
+            <label for="tags">Tags</label>
+            <input class="input" placeholder="Location" type="text" name="location" id="location">
+            <input class="input" placeholder="Seniority" type="text" name="seniority" id="seniority">
+            <input class="input" placeholder="Category" type="text" name="category" id="category">
+        </div>
+
+        <button  class="btnHome" type="submit">Create</button>
+    </form>
+    </div>
+   
+    <script src="api/jobs.js"></script>
+    <script src="app/add-job.js"></script>
+    <script src="api/helpers.js"></script>
+    
+   
+</body>
+</html>

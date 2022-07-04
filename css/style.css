@@ -1,0 +1,134 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.titlePage{
+    color: aliceblue;
+    margin-right: 10px;
+    padding: 4px;
+}
+.nav-item {
+    padding: 10px;
+    margin-right: 7px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav-item:hover{
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(119, 123, 234, 0.946);
+}
+.nav-items{
+    display: flex;
+    padding: 5px; 
+    height: 50px;
+    background-color: #48bab2;
+}
+.btnHome{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #48bab2 ;
+}
+.btnHome:hover{
+    border-radius: 15px;
+    background-color: rgba(119, 123, 234, 0.946);
+}
+.selectors{
+    display: inline-block;
+    padding: 15px;
+    
+}
+.card-form{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    
+}
+
+.container{
+      padding: 50px;
+
+}
+
+
+
+/*CARDS*/
+
+.card{
+    display: inline-block;
+   
+    margin-left: 30px;
+    width: 200px;
+    height: 200px;
+    
+}
+.titleJob{
+    padding: 5px;
+}
+p{
+    padding: 5px;
+    height: 40px;
+    width: 200px;
+}
+span{
+    padding: 5px;
+    margin-left:2px ;
+    height: 30px;
+    border-radius: 15px;
+    color: aliceblue;
+    background-color: #e13da2;
+}
+.detailBtn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #48bab2;
+}
+.detailBtn:hover{
+    border-radius: 15px;
+    background-color: rgba(119, 123, 234, 0.946);
+}
+
+/*FORMULARIOS*/
+
+.form{
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgba(249, 247, 247, 0.946);
+    border-radius: 15px;
+}
+label{
+    font-size: 20px;
+}
+.input{
+    display: block;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+    width: 300px;
+    background-color:rgba(216, 217, 243, 0.946);
+    
+}
+.input-description{
+    display: block;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    background-color:rgba(216, 217, 243, 0.946);
+}

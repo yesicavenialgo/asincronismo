@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav-items">
+        <h1 class="titlePage">Careers</h1>
+        <a class="nav-item" href="home.html">Home</a>
+        <a class="nav-item" href="add-job.html">Create Job</a>
+    </nav>
+<div class="container">
+    <div class="selectors">
+        <select name="select" aria-placeholder="Seleccionar" class="btn dropdown-item">
+            <option disabled="disabled" value="" >Seleccionar</option>
+           
+        </select>
+    </div>
+    <div class="selectors">
+        <select name="select" class="btn dropdown-item">
+            <option disabled="disabled" value="" >Seleccionar</option>   
+        </select>
+    </div>
+    <div class="selectors">
+        <select name="select" class="btn dropdown-item">
+            <option disabled="disabled" value="" >Seleccionar</option> 
+        </select>
+    </div>
+    <button class="btnHome" type="submit">Search</button>
+    <button class="btnHome" type="submit">Clear</button>
+
+    <div id="cards" class="cards">
+        <tbody></tbody>
+    </div>
+
+</div>
+    <script src="api/helpers.js"></script>
+    <script src="api/jobs.js"></script>
+    <script src="app/jobs.js"></script>
+
+</body>
+</html>
