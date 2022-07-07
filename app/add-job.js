@@ -12,5 +12,4 @@ form.addEventListener('submit', async (e) =>{
     }
 
    const data = await addJob(u)
-   console.log(data)
 })

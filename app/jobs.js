@@ -12,8 +12,11 @@ const loadCards = async () =>{
         title.classList.add('titleJob')
         const desc = document.createElement('p');
         const loc = document.createElement('span');
+        loc.setAttribute("name","location")
         const sen = document.createElement('span');
+        sen.setAttribute("name", "seniority")
         const cat = document.createElement('span');
+        cat.setAttribute("name","category")
 
         card.appendChild(title);
         card.appendChild(desc);

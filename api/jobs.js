@@ -35,9 +35,18 @@ const editJob = async (job) =>{
         Headers: {
             contentType: 'application/json'}
     }
-
    const response = await fetch(`https://asincronismo-729fa-default-rtdb.europe-west1.firebasedatabase.app/add-job/${job.id}.json`,options)
    const data = await response.json()
 
    return mapToArray(data);
+}
+const deleteJob = async (id) =>{
+
+    const options = {
+        method : 'DELETE',
+    }
+   const response = await fetch(`https://asincronismo-729fa-default-rtdb.europe-west1.firebasedatabase.app/add-job/${id}.json`,options)
+   const data = await response.json()
+
+   return data;
 }
